@@ -1,12 +1,15 @@
 body {
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 1rem;
-	line-height: 1rem;
-	@include default-text-color($red);
+	font-size: 1em;
+	line-height: 1em;
+	//@include default-text-color($lmgrey);
+	color: $white;
+	padding: 20px;
+	background: $greywhite;
 }
 
 #wrapper {
-	//background: $white;
+	background: $lmgrey;
 	margin: 0 auto;
 	max-width: 800px;
 }
@@ -15,4 +18,8 @@ body {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.rotation {
+	transform: rotate(270deg);
 }

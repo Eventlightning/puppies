@@ -1,0 +1,32 @@
+.large-box {
+	position:relative;
+  border-bottom:3px solid rgba(0,0,0,.15);
+  border-right: 1px solid rgba(0,0,0,.1);
+  border-top:   1px solid rgba(0,0,0,.07);
+  border-left:  1px solid rgba(0,0,0,.07);
+  background-color:rgba(255,255,255,1);
+  border-radius:7px;
+  padding:6px 5px 12px 5px;
+  margin-bottom:10px;
+}
+
+.full-pane {
+	width:100%;
+	background: white;
+	border-top: 0.5px solid gray;
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	height: 150px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.pix {
+	position:relative;
+	z-index: -2;
+	height: 400px;
+	width: 100%;
+	border: 3px solid black;
+}
+
